@@ -9,7 +9,7 @@
 fibonacciSequence <- function(x)
 {
   a<- c(0,1)
-  for(i in 3:(x-2))
+  for(i in 3:x)
   {
     a[i] = a[i-2] + a[i-1]
   }
